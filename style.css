@@ -132,53 +132,48 @@ footer {
   color: var(--off-white);
 }
 
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
   main article {
-    padding: 12px 8px ;
+    padding: 48px ;
   }
-  nav {
-    display: flex;
-    flex-direction: column;
+  nav, nav a {
+    display: block;
     text-align: center;
   }
   nav > a.logo {
-   margin-right: 0;
-   padding-bottom: 12px;
+   margin-bottom: 20px;
   }
   header {
     padding: 12px;
   }
   section.hero > .call-to-action {
-    font-size: .9rem;
+    font-size: 1rem;
   }
  main > section, main > article{
-    margin-bottom: 8px;
+    margin-bottom: 10px;
   }
   header a {
     font-size: 1rem;
   }
   h1 {
-    font-size: 1.7rem;
+    font-size: 2rem;
     margin: 25px;
   }
   main > section.hero {
     height: 215px;
   }
   body {
-    font-size: .9rem;
+    font-size: 1rem;
     text-align: left;
   }
   section.hero > button {
     font-size: .5rem;
   }
   main > article img {
-    width: 250px;
-    margin-right: 24px;
-    margin-bottom: 6px;
-    margin-left: 12px;
+    width: 300px;
+    margin: 0;
   }
   main p {
     margin-bottom: 20px;
   }
-
 }
